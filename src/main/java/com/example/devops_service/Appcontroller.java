@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Appcontroller {
     @GetMapping("/")
     public String index() {
-        return "Hello world / we use github actions";
+        return "Hello world / we use github actions / second";
     }
     
 }
